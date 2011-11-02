@@ -1,10 +1,17 @@
 {
-    "name": "lib-v8debug",
+    "name": "v8debug",
     "description": "Implementation of the V8 debugger protocol",
-    "version": "0.1",
+    "version": "0.1.1",
     "homepage" : "http://github.com/ajaxorg/lib-v8debug",
     "author": "Fabian Jakobs <fabian@ajax.org>",
     "main": "lib/v8debug",
+    "devDependencies": {
+        "asyncjs": "0.0.x",
+        "amd-loader": ">=0.0.2"
+    },
+    "scripts" : {
+      "test" : "node lib/v8debug/test/all.js"
+    },
     "repository" : {
         "type" : "git",
          "url" : "http://github.com/ajaxorg/lib-v8debug.git"
