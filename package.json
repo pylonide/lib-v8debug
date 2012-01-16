@@ -5,7 +5,7 @@
     "homepage" : "http://github.com/ajaxorg/lib-v8debug",
     "author": "Fabian Jakobs <fabian@ajax.org>",
     "main": "lib/v8debug",
-    "devDependencies": {
+    "dependencies": {
         "amd-loader": ">=0.0.2"
     },
     "devDependencies": {
