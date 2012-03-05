@@ -6,7 +6,7 @@
     "author": "Fabian Jakobs <fabian@ajax.org>",
     "main": "lib/v8debug",
     "dependencies": {
-        "amd-loader": ">=0.0.2"
+        "amd-loader": "~0.0.4"
     },
     "devDependencies": {
         "asyncjs": "0.0.x"
