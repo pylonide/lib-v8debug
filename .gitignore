@@ -1,1 +1,5 @@
-*.12*.gz
+*.1*.gz
+node_modules
+.DS_Store
+package/
+v8debug*.tgz

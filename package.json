@@ -1,16 +1,25 @@
 {
-    "name": "lib-v8debug",
+    "name": "v8debug",
     "description": "Implementation of the V8 debugger protocol",
-    "version": "0.1",
-    "homepage" : "http://github.com/ajaxorg/lib-v8debug",
+    "version": "0.1.2",
+    "homepage": "http://github.com/ajaxorg/lib-v8debug",
     "author": "Fabian Jakobs <fabian@ajax.org>",
+    "contributors": [
+        "Sten Feldman <exile@chamber.ee> (http://sten.feldman.eesti.ee/)"
+    ],
     "main": "lib/v8debug",
-    "repository" : {
-        "type" : "git",
-         "url" : "http://github.com/ajaxorg/lib-v8debug.git"
+    "dependencies": {
+        "amd-loader": "~0.0.8"
     },
-    "licenses": [{
-        "type": "LGPLv3",
-        "url": "http://www.gnu.org/licenses/lgpl-3.0.txt"}
-    ]
+    "devDependencies": {
+        "asyncjs": "https://github.com/exsilium/async.js/tarball/be2c5b9195312c9c4aa8c3e29932b0b9784bcae7"
+    },
+    "scripts": {
+        "test": "node lib/v8debug/test/all.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/exsilium/lib-v8debug.git"
+    },
+    "license": "LGPL-3.0"
 }
