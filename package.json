@@ -1,25 +1,28 @@
 {
-    "name": "v8debug",
-    "description": "Implementation of the V8 debugger protocol",
-    "version": "0.1.2",
-    "homepage": "http://github.com/ajaxorg/lib-v8debug",
-    "author": "Fabian Jakobs <fabian@ajax.org>",
-    "contributors": [
-        "Sten Feldman <exile@chamber.ee> (http://sten.feldman.eesti.ee/)"
-    ],
-    "main": "lib/v8debug",
-    "dependencies": {
-        "amd-loader": "~0.0.8"
-    },
-    "devDependencies": {
-        "asyncjs": "https://github.com/exsilium/async.js/tarball/be2c5b9195312c9c4aa8c3e29932b0b9784bcae7"
-    },
-    "scripts": {
-        "test": "node lib/v8debug/test/all.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/exsilium/lib-v8debug.git"
-    },
-    "license": "LGPL-3.0"
+  "name": "@pylonide/v8debug",
+  "description": "Implementation of the V8 debugger protocol",
+  "version": "0.1.3",
+  "license": "LGPL-3.0",
+  "homepage": "https://github.com/pylonide/lib-v8debug",
+  "author": "Fabian Jakobs <fabian@ajax.org>",
+  "contributors": [
+    "Sten Feldman <exile@chamber.ee> (https://sten.pw/)"
+  ],
+  "main": "lib/v8debug",
+  "engines": {
+    "node": ">= 12.22.1"
+  },
+  "dependencies": {
+    "amd-loader": "~0.0.8"
+  },
+  "devDependencies": {
+    "asyncjs": "~0.0.13"
+  },
+  "scripts": {
+    "test": "node lib/v8debug/test/all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pylonide/lib-v8debug.git"
+  }
 }
